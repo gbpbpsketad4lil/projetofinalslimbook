@@ -269,39 +269,38 @@ header {
 
 
 
-.rodape {
+.rodape{
     position: fixed;
     background: #292929;
     display: flex;
     justify-content: center;
 
-    img {
+    img{
         padding: 1rem;
     }
 
-    .logosrodape {
+    .logosrodape{
         padding: 2rem;
     }
 
-    .textosrodape {
+    .textosrodape{
         padding: 4rem;
         font-family: 'Inter';
         font-weight: 400;
         font-size: 24px;
         color: #FFFFFF;
-
     }
 
 
 }
 
 
-.show {
+.show{
 
     max-width: 100%;
     transition: all 2s;
 }
 
-.hidden {
+.hidden{
 max-width: 0;
 }
