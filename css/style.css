@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  font-size: 1.6rem;
+}
+
+header {
+  right: 0;
+  left: 0;
+  position: absolute;
+  margin-top: 5rem;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+  list-style: none;
+  padding: 1rem;
+}
+
+.first__page {
+  background-position: center;
+  display: flex;
+  background: radial-gradient(50% 50% at 50% 50%, #003951 0%, #000000 100%);
+}
+.first__page .primeirapagina {
+  display: flex;
+  padding: 15rem;
+  justify-content: center;
+  align-items: center;
+}
+.first__page h1 {
+  text-align: end;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+}
+.first__page h2 {
+  text-align: end;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: white;
+}
+.first__page img {
+  justify-content: center;
+  height: 50rem;
+  width: 50rem;
+}
+
+.second__page {
+  background-image: url(../assets/fundopagina2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second__page .segundapagina .textossegunda {
+  padding: 5rem;
+}
+.second__page .segundapagina .textossegunda h3 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+.second__page .segundapagina .textossegunda p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+.second__page .segundapagina img {
+  padding: 8rem;
+  width: 130rem;
+}
+
+.third__page {
+  background-image: url(../assets/fundo3.svg);
+  background-repeat: no-repeat;
+}
+.third__page .terceirapagina {
+  padding: 15rem;
+  display: flex;
+  flex-direction: column;
+}
+.third__page .terceirapagina img {
+  padding: 2rem;
+  align-self: flex-end;
+  width: 38rem;
+  height: 20rem;
+}
+.third__page .terceirapagina .textosterceira {
+  margin-left: 60rem;
+}
+.third__page .terceirapagina .textosterceira h3 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: right;
+  color: #FFFFFF;
+}
+.third__page .terceirapagina .textosterceira p {
+  margin-top: 1.4rem;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.fourth__page {
+  background-image: url(../assets/fundo4.svg);
+  background-repeat: no-repeat;
+  padding: 8rem;
+}
+.fourth__page .quartapaginadireita {
+  display: flex;
+}
+.fourth__page .quartapaginadireita .textosdireita {
+  padding: 5rem;
+}
+.fourth__page .quartapaginadireita .textosdireita h3 {
+  margin-top: 1.4rem;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: left;
+  color: #FFFFFF;
+}
+.fourth__page .quartapaginadireita .textosdireita p {
+  margin-top: 1.4rem;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: left;
+  color: #FFFFFF;
+}
+.fourth__page .quartapaginadireita img {
+  width: 60rem;
+  align-self: flex-end;
+  justify-content: center;
+}
+.fourth__page .quartapaginaesquerda {
+  display: flex;
+}
+.fourth__page .quartapaginaesquerda .textosesquerda {
+  padding: 5rem;
+  justify-content: left;
+  align-items: left;
+}
+.fourth__page .quartapaginaesquerda .textosesquerda h3 {
+  margin-top: 1.4rem;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: right;
+  color: #FFFFFF;
+}
+.fourth__page .quartapaginaesquerda .textosesquerda p {
+  margin-top: 1.4rem;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: right;
+  color: #FFFFFF;
+}
+.fourth__page .quartapaginaesquerda img {
+  width: 60rem;
+  align-self: flex-start;
+}
+.fourth__page button {
+  display: flex;
+  cursor: pointer;
+  background-color: #009BDF;
+  border-radius: 1rem;
+  border: none;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 48px;
+  color: #FFFFFF;
+  transition: all 2s;
+  margin: auto;
+  padding-block: 2.7rem;
+  padding-inline: 2.6rem;
+  align-items: center;
+  gap: 1rem;
+}
+.fourth__page button:hover {
+  background-color: #00B1FF;
+}
+
+.rodape {
+  position: fixed;
+  background: #292929;
+  display: flex;
+  justify-content: center;
+}
+.rodape img {
+  padding: 1rem;
+}
+.rodape .logosrodape {
+  padding: 2rem;
+}
+.rodape .textosrodape {
+  padding: 4rem;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.show {
+  max-width: 100%;
+  transition: all 2s;
+}
+
+.hidden {
+  max-width: 0;
+}/*# sourceMappingURL=style.css.map */
